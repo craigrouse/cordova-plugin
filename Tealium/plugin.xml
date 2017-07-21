@@ -36,9 +36,6 @@
         <framework src="SystemConfiguration.framework" />
         <framework src="src/ios/TealiumIOS.framework" custom="true" embed="true" compiler-flags="-ObjC"/>
         <framework src="src/ios/TealiumIOSLifecycle.framework" custom="true" embed="true" compiler-flags="-ObjC"/>
-        <!--// source/credit: http://stackoverflow.com/questions/36650522/custom-cordova-plugin-add-framework-to-embedded-binaries/36723619#36723619-->
-        <!--Automatically adds embedded binary without manual editing of xcodeproj file-->
-        <hook type="before_build" src="hooks/add_embedded.js" />
     </platform>
 		
     <!-- android -->
